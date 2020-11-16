@@ -1,0 +1,486 @@
+@font-face { font-family: opensans; src: url('assets/font/opensans.ttf'); }
+@font-face { font-family: opensans; src: url('assets/font/opensans.eot'); }
+@font-face { font-family: metin2; src: url('assets/font/metin2.ttf'); }
+@font-face { font-family: metin2; src: url('assets/font/metin2.eot'); }
+html { 
+	font-family: "opensans";
+  background: url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+nospace {
+   font-size: 0;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width:100%;
+	background-color: #1B2838;
+}
+
+body{
+	background-image: url(assets/bg/bg.png);
+	min-height: 800px;
+	background-position: top center;
+    background-repeat:no-repeat;
+}
+
+#titlu{
+	font-size:60px;
+	font-family: "metin2";
+	color:#B9C0C0;
+}
+
+
+td, tr, img  { padding: 0px; margin: 0px; border: none; }
+table { border-collapse: collapse; }
+
+a { 
+color: inherit; 
+text-decoration:  none;
+} 
+
+#header-logo{
+	margin-bottom: 30px;
+	font-size:13px;
+	font-family: "opensans";
+	color:#B9C0C0;
+}
+#subheader{
+	text-shadow: 1px 1px 12px #000000;
+	margin-bottom: 30px;
+	font-size:13px;
+	font-family: "opensans";
+	color:#ffffff;
+}
+
+#page-content{
+	background-image: url(assets/bg/content-bg.png);
+	width: 800px;
+	min-height: 340px;
+	-webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+}
+#titlu-pagina-atm{
+	padding-top: 9px;
+	padding-bottom: 12px;
+	font-size:15px;
+	font-family: "opensans";
+	color:#FFFFFF;
+}
+#meniu-stanga{
+	width: 140px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 50px;
+	text-shadow: 1px 1px 12px #000000;
+	margin-bottom: 30px;
+	font-size:13px;
+	font-family: "opensans";
+	color:#C6D4DF;
+}
+#sublist-menu-stanga{
+	margin-bottom: 6px;
+	font-size:12px;
+	font-family: "opensans";
+	color:#66C0F4;
+}
+
+#sublist-menu-stanga-statistici{
+	margin-bottom: 6px;
+	font-size:12px;
+	font-family: "opensans";
+	color:#4E6171;
+}
+
+
+#sublist-menu-stanga:hover{
+	background-repeat:no-repeat;
+	/* background-image: url(menu/hover-submenu.png); */
+	padding-left: 6px;
+	margin-bottom: 6px;
+	font-size:12px;
+	font-family: "opensans";
+	color:#000000;
+}
+
+
+#spatiere-content-text{
+	padding: 10px;
+	font-size:15px;
+	font-family: "opensans";
+	color:#000000;
+}
+
+#font-descriere-caseta{
+	font-size:13px;
+	font-family: "opensans";
+	color:#FFFFFF;
+}
+#inside-content-right{
+	padding-left: 18px;
+	padding-right: 15px;
+	width: 250px;
+	height: auto;
+	font-size:13px;
+	font-family: "opensans";
+	color:#FFFFFF;
+}
+
+#copyright-meleme18{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #67C1F5;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#register-text-name{
+	color: #C6C6C6;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#pozitionare-form{
+	padding-left: 30px;
+	padding-bottom: 40px;
+	padding-top: 10px;
+
+}
+
+#register-result{
+		font-size:14px;
+		font-family: "Arial";
+		color: white;
+		padding-left: 28px;
+}
+
+#clasament-design-mini{
+	border-radius: 0px;
+	border: 0px solid #2E363D;
+	width: 250px;
+	height: auto;
+	color: #C6C6C6;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#clasament-design-mare{
+	border-radius: 0px;
+	border: 0px solid #2E363D;
+	width: 500px;
+	height: auto;
+	color: #C6C6C6;
+	font-family: "opensans";
+	font-size: 13px;
+}
+
+#titlu-font-menu-dreapta{
+	color: #C6C6C6;
+	font-family: "opensans";
+	font-size: 13px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+}
+#player-big-clasament{
+	padding: 3px;
+	border-radius: 5px;
+	border: 1px solid #B8DAEE;
+	width: auto;
+	height: 52px;
+	line-height: 52px;
+	background-color: #B8DAEE;
+	margin-bottom: 5px;
+}
+
+#player-mini-clasament{
+	padding: 3px;
+	border-radius: 3px;
+	border: 1px solid #4E6171;
+	width: auto;
+	height: auto;
+	background-color: #4E6171;
+	margin-bottom: 5px;
+}
+
+#player-mini-clasament:hover{
+	padding: 3px;
+	border-radius: 3px;
+	border: 1px solid #A6D0EA;
+	width: auto;
+	height: auto;
+	background-color: #A6D0EA;
+	margin-bottom: 5px;
+}
+
+#mini-rank-listing-exp{
+	padding-right: 5px;
+	padding-left: 5px;
+	width: 170px;
+	color: white;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#mini-rank-listing{
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#numerotare-pagini{
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid #4E6171;
+	width: auto;
+	padding-right: 12px;
+	padding-left: 12px;
+	color: white;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#numerotare-pagini-curent{
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid #95BBD4;
+	background-color: #95BBD4;
+	width: auto;
+	padding-right: 12px;
+	padding-left: 12px;
+	color: white;
+	font-family: "opensans";
+	font-size: 13px;
+}
+#mini-rank-listing-big-regat{
+	text-align: center;
+	width: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: white;
+	font-family: "opensans";
+	font-size: 13px;
+}
+
+#mini-rank-listing-big-nivel{
+	width: 25px;
+	text-align: center;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: white;
+	font-family: "opensans";
+	font-size: 13px;
+}
+
+#mini-rank-listing-nume-big{
+	width: auto;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 14px;
+}
+
+#mini-rank-listing-nume-big-guild-name{
+	width: 90px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 14px;
+}
+#mini-rank-listing-numerotare-big{
+	height: auto;
+	line-height: auto;
+	width: 30px;
+	text-shadow: 1px 1px 12px #FFFFFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 13px;
+	text-align: center;
+}
+#mini-rank-listing-numerotare{
+	text-shadow: 1px 1px 12px #FFFFFF;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #A4D007;
+	font-family: "opensans";
+	font-size: 13px;
+}
+
+#butoane-ucp{
+	-webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	color: #000000;
+	padding-left: 10px;
+	background-color: #E2E9EE;
+	border-radius: 3px;
+	border: 0px solid #4E6171;
+	width: 230px;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 7px;
+}
+#butoane-ucp:hover{
+	-webkit-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	-moz-box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	box-shadow: 0px 0px 15px -2px rgba(0,0,0,1);
+	color: #FFFFFF;
+	padding-left: 10px;
+	background-color: #4E6171;
+	border-radius: 3px;
+	border: 0px solid #4E6171;
+	width: 230px;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 7px;
+}
+#caseta-caracter-listare{
+	border-radius: 4px;
+	background-color: #B8DAEE;
+	padding: 10px;
+	width: 482px;
+	margin-bottom: 10px;
+}
+#caseta-caracter-listare:hover{
+	border-radius: 4px;
+	background-color: #D3E2EA;
+	padding: 10px;
+	width: 482px;
+	margin-bottom: 10px;
+}
+
+#nume-small-listare{
+	color: #384959;
+	font-family: "opensans";
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+#nume-big-listare{
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 14px;
+}
+#nume-big-listare-caracter{
+	width: 180px;
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 14px;
+}
+#nume-big-listare-caracter-rank{
+	width: auto;
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 14px;
+}
+#dimensiuni-numerotare{
+	overflow: hidden;
+	max-width: 500px;
+	height: auto;
+}
+#design-input-ranking{
+	text-align: center;
+	margin-left: 10px;
+	color: white;
+	width: 50px;
+	height: 17px;
+	border: 0px;
+	background-color: #333C44;
+	border-radius: 3px;
+	border: 1px solid #2E363D;
+}
+#cauta-pagina-ranking{
+	color: white;
+	margin-left: 5px;
+	border-radius: 3px;
+	border: 1px solid #2E363D;
+	background-color: #769505;
+	text-align: center;
+	width: 80px;
+	height: 21px;
+	border: 0px;
+}
+#cauta-pagina-ranking:hover{
+	color: white;
+	margin-left: 5px;
+	border-radius: 3px;
+	border: 1px solid #A4D007;
+	background-color: #A4D007;
+	text-align: center;
+	width: 80px;
+	height: 21px;
+	border: 0px;
+}
+
+#download-page-align{
+	padding-left: 5px;
+	color: #C6C6C6;
+	font-family: "opensans";
+	font-size: 14px;
+}
+
+#listing-download{
+	width: 282px;
+	height: 42px;
+	background-color: #859BAC;
+	border: 4px solid #424D58;
+	margin-bottom: 5px;
+	color: #10161B;
+	padding: 10px;
+	padding-right: 10px;
+}
+#listing-download:hover{
+	width: 290px;
+	height: 50px;
+	background-color: #ADD0E5;
+	border: 0px solid #2E363D;
+	margin-bottom: 5px;
+	color: #10161B;
+	padding: 10px;
+}
+#listing-download-active{
+	width: 290px;
+	height: 50px;
+	background-color: #ADD0E5;
+	border: 0px solid #2E363D;
+	margin-bottom: 5px;
+	color: #10161B;
+	padding: 10px;
+}
+#dreapta-list-download-desc{
+	width: 160px;
+	height: 200px;
+	background-color: #ADD0E5;
+	margin-bottom: 5px;
+	color: #10161B;
+	padding: 10px;
+}
+
+#titlu-cerinte-sistem{
+	background-color: #333C44;
+	border-radius: 3px;
+	border: 1px solid #2E363D;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	color: #ADD0E5;
+	font-family: "opensans";
+	font-size: 11px;
+}
+
+#footer-download-description{
+	margin-top: -6px;
+	padding: 10px;
+	width: 470px;
+	height: auto;
+	background-color: #ADD0E5;
+	color: #10161B;
+	font-family: "opensans";
+	font-size: 11px;
+}
